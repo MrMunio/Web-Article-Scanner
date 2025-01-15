@@ -12,7 +12,7 @@ A Streamlit-based web application that searches for domain-related articles and 
 ## Project Structure
 
 ```
-📦 Web Article Explorer
+📦 Web Article Scanner
 ├── web_article_scanner.py  # Core article collection logic
 ├── app.py                  # Streamlit web app
 ├── .env                    # Environment file for API keys
@@ -97,7 +97,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## License
+
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
