@@ -9,8 +9,8 @@ from web_article_scanner import ArticleCollector  # Import from your script
 load_dotenv()
 
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 WKHTMLTOPDF_PATH = os.getenv("WKHTMLTOPDF_PATH")
+
 # Initialize the article collector
 collector = ArticleCollector(OPENAI_API_KEY,WKHTMLTOPDF_PATH)
 # Streamlit UI
