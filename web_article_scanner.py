@@ -22,7 +22,7 @@ class ArticleCollector:
         Return only a JSON array of objects with 'query' field, no markdown formatting or other text."""
         
         response = client.chat.completions.create(
-            model="gpt-4o-mini",
+            model="gpt-4o",
             temperature=1,
             messages=[{"role": "user", "content": prompt}]
         )
