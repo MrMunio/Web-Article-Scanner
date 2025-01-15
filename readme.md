@@ -1,6 +1,7 @@
 # 🕵️‍♂️ Web Article Scanner
 
 A powerful Streamlit-based web application designed for large-scale article collection and research 📚. Perfect for organizations needing to gather extensive documentation efficiently, it can collect hundreds or even thousands of articles while maintaining minimal LLM token usage 🎯. The application intelligently filters high-quality content sources, leveraging OpenAI for concise query generation, DuckDuckGo for targeted web searches, and pdfkit for seamless PDF conversion. With real-time progress tracking and bulk ZIP downloads, it transforms time-consuming research tasks into an automated, streamlined process 🚀. The tool's efficiency comes from its smart approach: using LLM only for generating focused 10-word queries, then letting custom algorithms handle the heavy lifting of web research and content filtering.
+
 ## Features
 
 - 🌐 Search domain-specific articles
